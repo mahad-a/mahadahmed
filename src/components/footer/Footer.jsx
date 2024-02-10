@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#home" className="footer__logo">
-        Christian Montero
+        Mahad Ahmed
       </a>
       <ul className="permalinks">
         <li>
@@ -27,9 +27,6 @@ const Footer = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div className="footer__copyright">
-        <small>&copy; ET 2022. All rights reserved.</small>
-      </div>
     </footer>
   );
 };

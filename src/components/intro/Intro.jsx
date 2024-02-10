@@ -8,7 +8,6 @@ import img from "../../assets/Me.webp";
 const Intro = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
@@ -20,26 +19,22 @@ const Intro = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>5+ year</small>
+              <h5>Education</h5>
+              <small>Bachelor of Engineering: Software Engineering</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>32+ Completed Projects</small>
+              <small>5+ Completed Projects</small>
             </article>
           </div>
           <p>
-            Able Full-stack Developer with over 6 years of expertise in building Web & Mobile applications development.
-            <br />
-            My goal is to deliver efficient and effective solutions, and I adhere to the following principles in my work:
-            <br />
-            - I focus on providing solutions that address the client's needs and solve their problems.
-            <br />
-            - I believe in keeping my clients engaged throughout the development process, ensuring them.
+          Hi my name is Mahad Ahmed, I am a currently a third-year engineering student. I am majoring
+          <br />
+          in bachelor of software engineering at Carleton University in Ottawa, Canada.
           </p>
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            Contact Me For More Information
           </a>
         </div>
       </div>

@@ -49,3 +49,14 @@
 .contact__option h4 {
   font-weight: 500;
 }
+
+.icon-with-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.icon-with-text h5 {
+  margin-left: 10px; /* Adjust margin as needed */
+}
+
