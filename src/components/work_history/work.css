@@ -39,8 +39,14 @@
   
   .work__container > div h3 {
     text-align: center;
-    margin-bottom: 2rem;
+    
     color: var(--color-primary);
+  }
+
+  .work__container > div h4{
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 2rem;
   }
   
   .work__content {

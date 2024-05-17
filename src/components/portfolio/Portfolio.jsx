@@ -3,9 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/Flexcavo.png";
 import IMG2 from "../../assets/Meetnative.png";
 import IMG3 from "../../assets/Mobinspire.png";
-import IMG4 from "../../assets/Raise.png";
-import IMG5 from "../../assets/Potsave.png";
-import IMG6 from "../../assets/Health.png";
+import Translate from "../../assets/Translate_Program.exe"
 import React from "react";
 
 //Portfolio function
@@ -31,40 +29,14 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: "Mob Inspire",
+      title: "Simple Translator",
       img: IMG3,
       description:
-        "Mob Inspire streamlines the business operations in corporate sector by providing cost-effective and highly productive software solutions.",
-      technologies: "Nginx | PHP | MySQL | jQuery",
-      link: "https://www.mobinspire.com/",
+        "A Python program that allows users to translate text from English to many different languages such as: French, Spanish, German, Japanese, and Simplified Chinese. It utilizes the Google Translate API for translation.",
+      technologies: "Python | Tkinter",
+      link: Translate,
     },
-    {
-      id: 4,
-      title: "Raise",
-      img: IMG4,
-      description:
-        "Get started with free educational courses to mastery the foundations of startup equity as an African business.",
-      technologies: "Remix | React.js | Webflow | jQuery",
-      link: "https://www.raise.africa/",
-    },
-    {
-      id: 5,
-      title: "Potsave",
-      img: IMG5,
-      description:
-        "Through the PotSave.com platform, PotSave offers in-person product assessment and ordering services, accessible via the website, mobile applications, and software.",
-      technologies: "React | Next.js | Lodash | Tailwind CSS",
-      link: "https://dev-pwa.potsave.com/",
-    },
-    {
-      id: 6,
-      title: "Health",
-      img: IMG6,
-      description:
-        "U of U Health is the Mountain West's only academic health care system. We provide patient care, medical research, and physician training.",
-      technologies: "Angular | Drupal | Nginx | TypeScript",
-      link: "https://healthcare.utah.edu/",
-    },
+    
   ];
 
   return (
@@ -90,7 +62,7 @@ const Portfolio = () => {
                 className="btn btn-primary"
                 rel="noreferrer"
               >
-                Live Demo
+                Live Demo | Download App
               </a>
             </div>
           </article>
