@@ -14,8 +14,8 @@ const Portfolio = () => {
       title: "Sysc Site",
       img: IMG1,
       description:
-        "It is the website for construction machine renting company (Flexcavo) from Berlin",
-      technologies: "React.js | Pixel-perfect | SCSS | Styled Component",
+        "An intuitive and accessible student support website using React, JavaScript, HTML, and CSS, offering practice materials, academic guidance, and a GPA calculator to empower upcoming engineering students.",
+      technologies: "React.js | Javascript | HTML | CSS",
       link: "https://hajar-assim.github.io/sysc-site/",
     },
     {
@@ -50,8 +50,8 @@ const Portfolio = () => {
       title: "UNO Flip",
       img: null,
       description:
-        "Through the PotSave.com platform, PotSave offers in-person product assessment and ordering services, accessible via the website, mobile applications, and software.",
-      technologies: "React | Next.js | Lodash | Tailwind CSS",
+        "Implemented the UNO Flip card game in Java with Graphical User Interfaces (GUIs), employing the Model-View-Controller (MVC) design pattern for a modular and scalable structure. Integrated an AI player featuring dynamic sizing and sophisticated strategies, enhancing the challenge and unpredictability of opponents.",
+      technologies: "Java",
       link: "https://dev-pwa.potsave.com/",
     },
     {
@@ -59,8 +59,8 @@ const Portfolio = () => {
       title: "Health and Fitness Club Management System",
       img: null,
       description:
-        "U of U Health is the Mountain West's only academic health care system. We provide patient care, medical research, and physician training.",
-      technologies: "Angular | Drupal | Nginx | TypeScript",
+        "Developed a comprehensive Health and Fitness Club Management System, leveraging Java, PostgreSQL, and GUIs to offer members, trainers, and administrative staff a versatile platform for registration, profile management, scheduling, and billing.",
+      technologies: "Java | PostgreSQL",
       link: "https://healthcare.utah.edu/",
     },
     
