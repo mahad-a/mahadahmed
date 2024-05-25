@@ -1,8 +1,8 @@
 import "./portfolio.css";
 
-import IMG1 from "../../assets/Flexcavo.png";
+import IMG1 from "../../assets/sysc-site.png";
 import IMG2 from "../../assets/Meetnative.png";
-import IMG3 from "../../assets/Mobinspire.png";
+import IMG3 from "../../assets/translate.png";
 import Translate from "../../assets/Translate_Program.exe"
 import React from "react";
 
@@ -11,16 +11,16 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Flexcavo",
+      title: "Sysc Site",
       img: IMG1,
       description:
         "It is the website for construction machine renting company (Flexcavo) from Berlin",
       technologies: "React.js | Pixel-perfect | SCSS | Styled Component",
-      link: "https://www.flexcavo.de/",
+      link: "https://hajar-assim.github.io/sysc-site/",
     },
     {
       id: 2,
-      title: "Meet Native",
+      title: "Lingua World",
       img: IMG2,
       description:
         "MeetNative is an upselling platform that helps consumers and local businesses get more for their money.",
@@ -35,6 +35,33 @@ const Portfolio = () => {
         "A Python program that allows users to translate text from English to many different languages such as: French, Spanish, German, Japanese, and Simplified Chinese. It utilizes the Google Translate API for translation.",
       technologies: "Python | Tkinter",
       link: Translate,
+    },
+    {
+      id: 4,
+      title: "Tic Tac Toe",
+      img: null,
+      description:
+        "Get started with free educational courses to mastery the foundations of startup equity as an African business.",
+      technologies: "Remix | React.js | Webflow | jQuery",
+      link: "https://www.raise.africa/",
+    },
+    {
+      id: 5,
+      title: "UNO Flip",
+      img: null,
+      description:
+        "Through the PotSave.com platform, PotSave offers in-person product assessment and ordering services, accessible via the website, mobile applications, and software.",
+      technologies: "React | Next.js | Lodash | Tailwind CSS",
+      link: "https://dev-pwa.potsave.com/",
+    },
+    {
+      id: 6,
+      title: "Health and Fitness Club Management System",
+      img: null,
+      description:
+        "U of U Health is the Mountain West's only academic health care system. We provide patient care, medical research, and physician training.",
+      technologies: "Angular | Drupal | Nginx | TypeScript",
+      link: "https://healthcare.utah.edu/",
     },
     
   ];
