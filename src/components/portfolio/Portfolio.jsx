@@ -1,9 +1,12 @@
 import "./portfolio.css";
 
 import IMG1 from "../../assets/sysc-site.png";
-import IMG2 from "../../assets/Meetnative.png";
+import IMG2 from "../../assets/lingua.png";
 import IMG3 from "../../assets/translate.png";
-import Translate from "../../assets/Translate_Program.exe"
+import IMG4 from "../../assets/tictactoe.png";
+import IMG6 from "../../assets/health.png";
+import IMG7 from "../../assets/directorytool.png";
+import Translate from "../../assets/Translate_Program.exe";
 import React from "react";
 
 //Portfolio function
@@ -14,7 +17,7 @@ const Portfolio = () => {
       title: "Sysc Site",
       img: IMG1,
       description:
-        "An intuitive and accessible student support website using React, JavaScript, HTML, and CSS, offering practice materials, academic guidance, and a GPA calculator to empower upcoming engineering students.",
+        "Built an intuitive and accessible student support website using React, JavaScript, HTML, and CSS, offering practice materials, academic guidance, and a GPA calculator to empower upcoming engineering students.",
       technologies: "React.js | Javascript | HTML | CSS",
       link: "https://hajar-assim.github.io/sysc-site/",
     },
@@ -23,8 +26,8 @@ const Portfolio = () => {
       title: "Lingua World",
       img: IMG2,
       description:
-        "MeetNative is an upselling platform that helps consumers and local businesses get more for their money.",
-      technologies: "React | React Native | Android | iOS",
+        "Developed an immersive language learning application featuring an integrated translator and an AI-powered language teacher. The app provides comprehensive lessons and interactive quizzes, facilitating effective and engaging language acquisition for users.",
+      technologies: "React.js | Electron.js | Python | Java | PostgreSQL",
       link: "https://meetnative.com/",
     },
     {
@@ -39,9 +42,9 @@ const Portfolio = () => {
     {
       id: 4,
       title: "Tic Tac Toe",
-      img: null,
+      img: IMG4,
       description:
-        "Get started with free educational courses to mastery the foundations of startup equity as an African business.",
+        "Built a classic Tic Tac Toe game using Java with an intuitive GUI, providing a fun and simple gaming experience for users.",
       technologies: "Remix | React.js | Webflow | jQuery",
       link: "https://www.raise.africa/",
     },
@@ -50,17 +53,35 @@ const Portfolio = () => {
       title: "UNO Flip",
       img: null,
       description:
-        "Implemented the UNO Flip card game in Java with Graphical User Interfaces (GUIs), employing the Model-View-Controller (MVC) design pattern for a modular and scalable structure. Integrated an AI player featuring dynamic sizing and sophisticated strategies, enhancing the challenge and unpredictability of opponents.",
+        "Developed an interactive UNO Flip card game featuring a user-friendly Java GUI, offering an engaging gameplay experience with all the classic and special UNO Flip rules.",
       technologies: "Java",
       link: "https://dev-pwa.potsave.com/",
     },
     {
       id: 6,
       title: "Health and Fitness Club Management System",
-      img: null,
+      img: IMG6,
       description:
         "Developed a comprehensive Health and Fitness Club Management System, leveraging Java, PostgreSQL, and GUIs to offer members, trainers, and administrative staff a versatile platform for registration, profile management, scheduling, and billing.",
       technologies: "Java | PostgreSQL",
+      link: "https://healthcare.utah.edu/",
+    },
+    {
+      id: 7,
+      title: "Directory Creation Tool",
+      img: IMG7,
+      description:
+        "Created a versatile Python tool with a PyQt GUI, allowing users to easily generate directories based on an input string or an uploaded text file for enhanced organization.",
+      technologies: "Python",
+      link: "https://healthcare.utah.edu/",
+    },
+    {
+      id: 8,
+      title: "Chat Application",
+      img: null,
+      description:
+        "Designed a robust chat application with a Python backend deployed using Docker, and a dynamic frontend built with React JS, ensuring seamless and responsive real-time communication.",
+      technologies: "JavaScript | Python | Docker",
       link: "https://healthcare.utah.edu/",
     },
     
