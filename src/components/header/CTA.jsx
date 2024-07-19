@@ -31,10 +31,10 @@ const CTA = () => {
         <div className="modal">
           <div className="modal-content">
             <span onClick={handleCancelDownload} className="close">&times;</span>
-            <p>Are you sure you want to download the resume?</p>
+            <p>Confirm Resume download?</p>
             <div className="modal-actions">
               <button onClick={handleDownloadConfirmed} className="btn btn-primary">
-                Yes
+                Confirm
               </button>
               <button onClick={handleCancelDownload} className="btn">
                 Cancel

@@ -35,8 +35,8 @@ const Portfolio = () => {
       title: "Simple Translator",
       img: IMG3,
       description:
-        "A Python program that allows users to translate text from English to many different languages such as: French, Spanish, German, Japanese, and Simplified Chinese. It utilizes the Google Translate API for translation.",
-      technologies: "Python | Tkinter",
+        "Developed a cross-platform translator application featuring a user-friendly GUI using Electron.js and a robust backend with Python Flask. The application utilizes the Googletrans library to provide accurate and fast translations between multiple languages. This project showcases my ability to integrate diverse technologies and build functional, user-centric applications, demonstrating proficiency in both frontend and backend development.",
+      technologies: "Python | Electron.js | Javascript",
       link: Translate,
     },
     {

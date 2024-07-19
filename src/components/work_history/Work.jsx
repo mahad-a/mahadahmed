@@ -9,7 +9,7 @@ const Work = () => {
       <h2>Work Experience</h2>
       <div className="work__container">
         <div>
-          <h3>Cloud Software Engineer</h3>
+          <h3>DevOps Software Engineer</h3>
           <h4>Communications Research Centre</h4>
             <div className="work__content">
               <div className="work-image">
@@ -17,15 +17,21 @@ const Work = () => {
               </div>
               <div className="work__details">
                 <div>
-                  <p>• To develop and maintain data visualization dashboards using PowerBI, enhancing data-driven decision-making processes within the organization. 
-                    <br/> • Will leverage Python scripting and AWS technologies to streamline database operations, including data insertion, updating, and modification, within MySQL databases supporting critical research initiatives.</p>
+                  <p>• Implemented a Python Flask API across company applications to capture and transmit real-time 
+                    JSON usage data to an SQS queue, enhancing data collection efficiency and accuracy.
+                    <br/> • Engineered an AWS Lambda function to autonomously process queued messages, dynamically 
+                    appending insights to annual CSV and QuickSight reports stored in S3 buckets for comprehensive 
+                    usage analytics and reporting within S3 buckets.
+                    <br/> • Developed cloud applications in form of AWS CDK projects to implement infrastructure as code 
+                    (IaC) principles, ensuring seamless deployment and reproducibility of cloud resources.
+                    </p>
                 </div>
               </div>
             </div>
           </div>
 
         <div>
-          <h3>Research and Development Software Engineer</h3>
+          <h3>R&D Software Engineer</h3>
           <h4>Communications Research Centre</h4>
           <div className="work__content">
             <div className="work-image">
@@ -33,12 +39,12 @@ const Work = () => {
             </div>
             <div className="work__details">
               <div>
-                <p>• Pioneered the development of an automated environment type classification tool as part of a groundbreaking research 
-                  initiative aimed at democratizing spectrum licensing in Canada
-        <br/> • Leveraged advanced spatial analysis techniques, including geohashing and GeoPandas, to design and implement a robust 
-        Python-based software solution capable of classifying environmental types based on geographic coordinates.
-        <br/> • Employed QGIS and Matplotlib for comprehensive data collection, processing, and visualization of shapefiles, enabling the 
-        accurate representation of geospatial information and further enhancing the interpretation of environmental characteristics</p>
+                <p>• Spearheaded a research initiative aimed at democratizing spectrum licensing in Canada by developing an 
+                  innovative Python-based automated environment type classification tool
+        <br/> • Leveraged advanced spatial analysis techniques such as geohashing and GeoPandas to design and implement a 
+        robust software solution capable of classifying environmental types based on geographic coordinates.
+        <br/> • Employed QGIS and Matplotlib for comprehensive data collection, processing, and visualization of shapefiles, 
+        enabling the accurate representation of geospatial information and further enhancing the interpretation of environmental characteristics</p>
               </div>
             </div>
           </div>
