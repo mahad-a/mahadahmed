@@ -4,9 +4,11 @@ import IMG1 from "../../assets/sysc-site.png";
 import IMG2 from "../../assets/lingua.png";
 import IMG3 from "../../assets/translate.png";
 import IMG4 from "../../assets/tictactoe.png";
-import IMG6 from "../../assets/health.png";
+import IMG5 from "../../assets/unoflip.png";
+import IMG6 from "../../assets/Health.png";
 import IMG7 from "../../assets/directorytool.png";
-import Translate from "../../assets/Translate_Program.exe";
+import IMG8 from "../../assets/chat.png";
+// import Translate from "../../assets/Translate_Program.exe";
 import React from "react";
 
 //Portfolio function
@@ -23,12 +25,12 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: "Lingua World",
-      img: IMG2,
+      title: "Chat Application",
+      img: IMG8,
       description:
-        "Developed an immersive language learning application featuring an integrated translator and an AI-powered language teacher. The app provides comprehensive lessons and interactive quizzes, facilitating effective and engaging language acquisition for users.",
-      technologies: "React.js | Electron.js | Python | Java | PostgreSQL",
-      link: "https://meetnative.com/",
+        "Designed a robust chat application with a Python backend deployed using Docker, and a dynamic frontend built with React JS, ensuring seamless and responsive real-time communication.",
+      technologies: "JavaScript | Python | Docker",
+      link: "https://github.com/mahad-a/Chat-Application",
     },
     {
       id: 3,
@@ -37,7 +39,7 @@ const Portfolio = () => {
       description:
         "Developed a cross-platform translator application featuring a user-friendly GUI using Electron.js and a robust backend with Python Flask. The application utilizes the Googletrans library to provide accurate and fast translations between multiple languages. This project showcases my ability to integrate diverse technologies and build functional, user-centric applications, demonstrating proficiency in both frontend and backend development.",
       technologies: "Python | Electron.js | Javascript",
-      link: Translate,
+      link: "https://github.com/mahad-a/Simple-Translator-2",
     },
     {
       id: 4,
@@ -46,16 +48,16 @@ const Portfolio = () => {
       description:
         "Built a classic Tic Tac Toe game using Java with an intuitive GUI, providing a fun and simple gaming experience for users.",
       technologies: "Remix | React.js | Webflow | jQuery",
-      link: "https://www.raise.africa/",
+      link: "https://github.com/mahad-a/TicTacToe",
     },
     {
       id: 5,
       title: "UNO Flip",
-      img: null,
+      img: IMG5,
       description:
         "Developed an interactive UNO Flip card game featuring a user-friendly Java GUI, offering an engaging gameplay experience with all the classic and special UNO Flip rules.",
       technologies: "Java",
-      link: "https://dev-pwa.potsave.com/",
+      link: "https://github.com/mahad-a/Uno-Flip-Card-Game",
     },
     {
       id: 6,
@@ -64,7 +66,7 @@ const Portfolio = () => {
       description:
         "Developed a comprehensive Health and Fitness Club Management System, leveraging Java, PostgreSQL, and GUIs to offer members, trainers, and administrative staff a versatile platform for registration, profile management, scheduling, and billing.",
       technologies: "Java | PostgreSQL",
-      link: "https://healthcare.utah.edu/",
+      link: "https://github.com/mahad-a/Health-and-Fitness-Club-Management-System",
     },
     {
       id: 7,
@@ -73,17 +75,17 @@ const Portfolio = () => {
       description:
         "Created a versatile Python tool with a PyQt GUI, allowing users to easily generate directories based on an input string or an uploaded text file for enhanced organization.",
       technologies: "Python",
-      link: "https://healthcare.utah.edu/",
+      link: "https://github.com/mahad-a/Create-Directory-Tool",
     },
-    {
-      id: 8,
-      title: "Chat Application",
-      img: null,
-      description:
-        "Designed a robust chat application with a Python backend deployed using Docker, and a dynamic frontend built with React JS, ensuring seamless and responsive real-time communication.",
-      technologies: "JavaScript | Python | Docker",
-      link: "https://healthcare.utah.edu/",
-    },
+    // {
+    //   id: 8,
+    //   title: "Lingua World",
+    //   img: IMG2,
+    //   description:
+    //     "Developed an immersive language learning application featuring an integrated translator and an AI-powered language teacher. The app provides comprehensive lessons and interactive quizzes, facilitating effective and engaging language acquisition for users.",
+    //   technologies: "React.js | Electron.js | Python | Java | PostgreSQL",
+    //   link: "https://meetnative.com/",
+    // },
     
   ];
 

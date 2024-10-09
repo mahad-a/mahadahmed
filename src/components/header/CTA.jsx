@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CV from '../../assets/Mahad_Ahmed_Resume_2024.pdf';
+import CV from '../../assets/Resume_MahadAhmed_2024.pdf';
 
 const CTA = () => {
   const [showConfirmation, setShowConfirmation] = useState(false);
