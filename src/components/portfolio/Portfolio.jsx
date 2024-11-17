@@ -47,7 +47,7 @@ const Portfolio = () => {
       img: IMG4,
       description:
         "Built a classic Tic Tac Toe game using Java with an intuitive GUI, providing a fun and simple gaming experience for users.",
-      technologies: "Remix | React.js | Webflow | jQuery",
+      technologies: "Java",
       link: "https://github.com/mahad-a/TicTacToe",
     },
     {
@@ -77,15 +77,15 @@ const Portfolio = () => {
       technologies: "Python",
       link: "https://github.com/mahad-a/Create-Directory-Tool",
     },
-    // {
-    //   id: 8,
-    //   title: "Lingua World",
-    //   img: IMG2,
-    //   description:
-    //     "Developed an immersive language learning application featuring an integrated translator and an AI-powered language teacher. The app provides comprehensive lessons and interactive quizzes, facilitating effective and engaging language acquisition for users.",
-    //   technologies: "React.js | Electron.js | Python | Java | PostgreSQL",
-    //   link: "https://meetnative.com/",
-    // },
+    {
+      id: 8,
+      title: "Lingua World",
+      img: IMG2,
+      description:
+        "Developing an immersive language learning application featuring an integrated translator and an AI-powered language teacher. The app provides comprehensive lessons and interactive quizzes, facilitating effective and engaging language acquisition for users.",
+      technologies: "React.js | Electron.js | Python | Java | PostgreSQL",
+      link: "https://github.com/mahad-a/Lingua-World",
+    },
     
   ];
 
