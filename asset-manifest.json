@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/mahadahmed/static/css/main.f971f255.css",
-    "main.js": "/mahadahmed/static/js/main.5ea9c016.js",
+    "main.js": "/mahadahmed/static/js/main.921c81c3.js",
     "static/media/unoflip.png": "/mahadahmed/static/media/unoflip.9c656f8dedef1d4ea423.png",
     "static/media/sysc-site.png": "/mahadahmed/static/media/sysc-site.94e5ed106a513fca3aab.png",
     "static/media/camels.webp": "/mahadahmed/static/media/camels.4eb54e77bab07f3fc9eb.webp",
-    "static/media/Resume_MahadAhmed_2024.pdf": "/mahadahmed/static/media/Resume_MahadAhmed_2024.56b8897641713ef4f1ad.pdf",
+    "static/media/Resume_MahadAhmed_2024.pdf": "/mahadahmed/static/media/Resume_MahadAhmed_2024.fb72c10c74444720c455.pdf",
     "static/media/translate.png": "/mahadahmed/static/media/translate.70d7acab5b8ffbaa0dc3.png",
     "static/media/lingua.png": "/mahadahmed/static/media/lingua.b21c4a1200d3a8aca221.png",
     "static/media/directorytool.png": "/mahadahmed/static/media/directorytool.0899e2a9bbc2c7e08f33.png",
@@ -15,10 +15,10 @@
     "static/media/chat.png": "/mahadahmed/static/media/chat.91d638f6030214307d3c.png",
     "index.html": "/mahadahmed/index.html",
     "main.f971f255.css.map": "/mahadahmed/static/css/main.f971f255.css.map",
-    "main.5ea9c016.js.map": "/mahadahmed/static/js/main.5ea9c016.js.map"
+    "main.921c81c3.js.map": "/mahadahmed/static/js/main.921c81c3.js.map"
   },
   "entrypoints": [
     "static/css/main.f971f255.css",
-    "static/js/main.5ea9c016.js"
+    "static/js/main.921c81c3.js"
   ]
 }
